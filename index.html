@@ -4,9 +4,11 @@
 	<title>최재승의 웹페이지</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript", src="color.js"></script>
 </head>
 <body>
-	<h1><a href="index.html" style="color : black">( ͡° ͜ʖ ͡°) 최재승은 뭐하고 살았을까?</a></h1>
+	<h1><a id="main" href="index.html" style="color : black">( ͡° ͜ʖ ͡°) 최재승은 뭐하고 살았을까?</a></h1>
 	<div id="grid">
 		
 		<ol>
@@ -26,7 +28,9 @@
 			<li><a href="check.html"> 내 할일</a></li>
 		</div>
 	</div>
-
+	<input type="button" value="night" onclick="
+	nightDayHandler(this)
+	">	
 
 	  
 
